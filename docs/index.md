@@ -1,3 +1,8 @@
+---
+layout: default
+title: About
+---
+
 The workshop will be a one-week event consisting of 10 modules (~3 hours each) that include both theory and computer laboratory. Topics are as follows:
 
 | Day | Module 1 | Module 2 |
