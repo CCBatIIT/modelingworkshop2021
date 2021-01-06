@@ -3,23 +3,19 @@ layout: default
 title: About
 ---
 
-The workshop will be a one-week event consisting of 10 modules (~3 hours each) that include both theory and computer laboratory. Topics are as follows:
+The workshop will be a one-week event consisting of 10 modules (~3 hours each) that include both theory and computer laboratory. The workshop will be primarily taught by David Minh with guest lectures from Laurentiu Spiridon and Soohaeng Yoo Willow. Topics are as follows:
 
 | Day | Module 1 | Module 2 |
 | --- | -------- | -------- |
-| 1 | **Structural analysis and visualization**. Protein structure and representation. Structural alignment. Homology modeling. Electrostatics calculations. | **Biomolecular potential energy functions** [Willow]. Molecular mechanics force fields. Mixed quantum mechanics/molecular mechanics. |
-| 2 | **Molecular docking**. Scoring functions.  Common optimization algorithms. | **Molecular simulation** [Spiridon]. Markov chain Monte Carlo. The Metropolis-Hastings Algorithm. Hamiltonian Monte Carlo and molecular dynamics. Constrained dynamics including torsion and rigid-body dynamics. Integrators, thermostats, and barostats. |
+| 1 | **Structural analysis and visualization**. Biological macromolecules. Protein visualization and structural alignment. Structural prediction. Electrostatics calculations. | **Biomolecular potential energy functions** (Willow). Molecular mechanics force fields. Mixed quantum mechanics/molecular mechanics. |
+| 2 | **Molecular docking**. Scoring functions.  Common optimization algorithms. | **Molecular simulation** (Spiridon). Markov chain Monte Carlo. The Metropolis-Hastings Algorithm. Hamiltonian Monte Carlo and molecular dynamics. Constrained dynamics including torsion and rigid-body dynamics. Integrators, thermostats, and barostats. |
 | 3 | **Analysis of molecular simulations**. Equilibration versus production. Visualization of trajectories. Time series, averages, and histograms of properties including RMSD, potential energy, and distances. Principal components analysis. | **Markov state models**. Conformational clustering. Markov chains. Microstates and empirical transition matrices. Computing equilibrium populations and kinetics. |
 | 4 | **Simulating thermodynamic processes**. Thermodynamic cycles. Umbrella sampling. Replica exchange. | **Analysis of thermodynamic process simulations**. Potential of mean force. Statistical estimators. |
 | 5 | **Binding free energy calculations**. Alchemical methods. | **Analysis of binding free energy calculations**. Quality metrics. Pose prediction. |
 
 Lectures will be recorded and computer laboratory exercises will be posted online for participants to complete asynchronously and as a free online resource.
 
-## Preparation
-
-Participants should have their own laptop computers capable of running virtual machines. A virtual machine that includes all software necessary for the workshop will be provided by the instructors. To use the virtual machine, first install [Virtual Box](https://www.virtualbox.org/).
-
-The virtual machine includes:
+During the workshop, we will be using the following software:
 - [Visual Molecular Dynamics (VMD)](https://www.ks.uiuc.edu/Research/vmd/) for visualizing biological macromolecules and molecular dynamics trajectories.
 - [AutoDock Tools & AutoDock Vina](http://autodock.scripps.edu/) for performing molecular docking.
 - [Robosample](https://github.com/spirilaurentiu/Robosample) for performing constrained molecular dynamics.
@@ -33,6 +29,8 @@ The virtual machine includes:
   - [yank](http://getyank.org/latest/) for performing alchemical free energy calculations.
   - [msmbuilder](http://msmbuilder.org/3.8.0/) to create statistical models for biomolecular dynamics.
 
+For your convenience, David's PhD student Jim Tufts has prepared [a virtual machine that contains all of this software](https://drive.google.com/file/d/1Ld57XG7kPQUwnn5NmaNZVRizKqJIt9T8/view?usp=sharing). To use this virtual machine, you will first need to install [Virtual Box](https://www.virtualbox.org/). The user name is _chemuser_ and initial password is _vm_.
+
 We will also use these web servers:
 - Homology modelling
   - [I-TASSER](https://zhanglab.ccmb.med.umich.edu/I-TASSER/), one of most accurate in competitions
@@ -41,9 +39,11 @@ We will also use these web servers:
 
 # Who?
 
-This workshop will introduce advanced undergraduate students, graduate students, and research scientists in chemistry, biology, and related fields to computational methods for modeling biological macromolecules. Workshop participants will mostly be from Vietnam, the United States of America, and Romania. The workshop will be primarily taught by David Minh with guest lectures from Laurentiu Spiridon and Soohaeng Yoo Willow.
+This workshop will introduce advanced undergraduate students, graduate students, and research scientists in chemistry, biology, and related fields to computational methods for modeling biological macromolecules. Workshop participants will mostly be from Vietnam, the United States of America, and Romania.
 
 Up to 25 participants will join the workshop in person, including up to 10 students as part of a class at the Illinois Institute of Technology. An additional 25 students may participate online and receive support from the instructors. If the workshop is held entirely online due to COVID-19, there will be up to 50 total participants.
+
+Participants should have a laptop computer capable of running the virtual machine.
 
 # When?
 

@@ -1,5 +1,9 @@
 title: An International Workshop on Modeling Biological Macromolecules
-description: Coming Summer 2021
+tagline: Coming Summer 2021
+
+author:
+  name: David D. L. Minh
+  url: http://mypages.iit.edu/~dminh
 
 theme: jekyll-theme-cayman
 markdown: kramdown
