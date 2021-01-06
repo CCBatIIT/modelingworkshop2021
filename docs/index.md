@@ -3,15 +3,18 @@ layout: default
 title: About
 ---
 
-The workshop will be a one-week event consisting of 10 modules (~3 hours each) that include both theory and computer laboratory. The workshop will be primarily taught by David Minh with guest lectures from Laurentiu Spiridon and Soohaeng Yoo Willow. Topics are as follows:
+The workshop will be a one-week event consisting of 10 periods (~3 hours each) that include both theory and computer laboratory. The workshop will be primarily taught by David Minh with guest lectures from Laurentiu Spiridon and Soohaeng Yoo Willow. Topics are as follows:
 
-| Day | Module 1 | Module 2 |
+| Day | Period 1 | Period 2 |
 | --- | -------- | -------- |
-| 1 | **Structural analysis and visualization**. Biological macromolecules. Protein visualization and structural alignment. Structural prediction. Electrostatics calculations. | **Biomolecular potential energy functions** (Willow). Molecular mechanics force fields. Mixed quantum mechanics/molecular mechanics. |
-| 2 | **Molecular docking**. Scoring functions.  Common optimization algorithms. | **Molecular simulation** (Spiridon). Markov chain Monte Carlo. The Metropolis-Hastings Algorithm. Hamiltonian Monte Carlo and molecular dynamics. Constrained dynamics including torsion and rigid-body dynamics. Integrators, thermostats, and barostats. |
-| 3 | **Analysis of molecular simulations**. Equilibration versus production. Visualization of trajectories. Time series, averages, and histograms of properties including RMSD, potential energy, and distances. Principal components analysis. | **Markov state models**. Conformational clustering. Markov chains. Microstates and empirical transition matrices. Computing equilibrium populations and kinetics. |
-| 4 | **Simulating thermodynamic processes**. Thermodynamic cycles. Umbrella sampling. Replica exchange. | **Analysis of thermodynamic process simulations**. Potential of mean force. Statistical estimators. |
-| 5 | **Binding free energy calculations**. Alchemical methods. | **Analysis of binding free energy calculations**. Quality metrics. Pose prediction. |
+{% for day in (1..5) %} | {{ day }} | {% for period in (1..2) %} {% for module in site.data.modules %} {% if module.day == day %} {% if module.period == period %}
+{%- if module.overview %}<b>{% endif -%}
+{{ module.title }}
+{%- if module.overview %}</b>{% endif -%}
+{% if module.key %} [[key]](https://github.com/CCBatIIT/modelingworkshop/raw/main/slides/{{ module.basename }}.key){% endif %}.
+{%- if module.description %} {{ module.description }}.{% endif -%}
+{%- endif %} {% endif %} {% endfor %} | {% endfor %}
+{% endfor %}
 
 Lectures will be recorded and computer laboratory exercises will be posted online for participants to complete asynchronously and as a free online resource.
 

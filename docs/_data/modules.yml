@@ -1,0 +1,92 @@
+- title: Structural analysis and visualization
+  basename: 1-1-0-structural-analysis-and-visualization
+  day: 1
+  period: 1
+  overview: true
+  key: true
+
+- title: Introduction to biological macromolecules
+  basename: 1-1-1-biological-macromolecules
+  day: 1
+  period: 1
+  key: true
+
+- title: "Tutorial: visualization and structural alignment with VMD"
+  basename: 1-1-2-VMD
+  day: 1
+  period: 1
+  key: true
+
+- title: Electrostatics and solvation
+  basename: 1-1-3-electrostatics
+  day: 1
+  period: 1
+  key: true
+
+- title: Protein structure prediction
+  basename: 1-1-4-structure-prediction
+  day: 1
+  period: 1
+  key: true
+
+- title: "Exercise: visualizing electrostatics"
+  basename: 1-1-4-structure-prediction
+  day: 1
+  period: 1
+  key: true
+
+- title: Biomolecular potential energy functions
+  teacher: Willow
+  description: Molecular mechanics force fields. Mixed quantum mechanics/molecular mechanics
+  day: 1
+  period: 2
+  overview: true
+
+- title: Molecular docking
+  description: Scoring functions. Common optimization algorithms
+  day: 2
+  period: 1
+  overview: true
+
+- title: Molecular simulation
+  teacher: Spiridon
+  description: Markov chain Monte Carlo. The Metropolis-Hastings Algorithm. Hamiltonian Monte Carlo and molecular dynamics. Constrained dynamics including torsion and rigid-body dynamics. Integrators, thermostats, and barostats
+  day: 2
+  period: 2
+  overview: true
+
+- title: Analysis of molecular simulations
+  description: Equilibration versus production. Visualization of trajectories. Time series, averages, and histograms of properties including RMSD, potential energy, and distances. Principal components analysis
+  day: 3
+  period: 1
+  overview: true
+
+- title: Markov state models
+  description: Conformational clustering. Markov chains. Microstates and empirical transition matrices. Computing equilibrium populations and kinetics
+  day: 3
+  period: 2
+  overview: true
+
+- title: Simulating thermodynamic processes
+  description: Thermodynamic cycles. Umbrella sampling. Replica exchange
+  day: 4
+  period: 1
+  overview: true
+
+- title: Analysis of thermodynamic process simulations
+  description: Potential of mean force. Statistical estimators
+  day: 4
+  period: 2
+  overview: true
+
+- title: Binding free energy calculations
+  description: Alchemical methods
+  day: 5
+  period: 1
+  overview: true
+
+- title: Analysis of binding free energy calculations
+  description: Quality metrics. Pose prediction
+  day: 5
+  period: 2
+  overview: true
