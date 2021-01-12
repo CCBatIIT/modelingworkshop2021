@@ -1,5 +1,5 @@
-- title: Structural analysis and visualization
-  basename: 1-1-0-structural-analysis-and-visualization
+- title: Structural visualization
+  basename: 1-1-0-structural-visualization
   day: 1
   period: 1
   overview: true
@@ -11,82 +11,179 @@
   period: 1
   key: true
 
-- title: "Tutorial: visualization and structural alignment with VMD"
-  basename: 1-1-2-VMD
+- title: "Tutorial: Linux terminal basics"
+  basename: 1-1-2-linux
   day: 1
   period: 1
   key: true
 
-- title: Electrostatics and solvation
-  basename: 1-1-3-electrostatics
+- title: "Tutorial: visualization and structural alignment with VMD"
+  basename: 1-1-3-VMD
   day: 1
   period: 1
+  key: true
+
+- title: Structure prediction and electrostatics
+  basename: 1-2-0-stucture-prediction-electrostatics
+  day: 1
+  period: 2
+  overview: true
   key: true
 
 - title: Protein structure prediction
-  basename: 1-1-4-structure-prediction
+  basename: 1-2-1-structure-prediction
   day: 1
-  period: 1
+  period: 2
+  key: true
+
+- title: Electrostatics and solvation
+  basename: 1-2-2-electrostatics
+  day: 1
+  period: 2
   key: true
 
 - title: "Exercise: visualizing electrostatics"
-  basename: 1-1-4-structure-prediction
+  basename: 1-2-3-structure-prediction
   day: 1
+  period: 2
+  key: true
+
+- title: Molecular docking and virtual screening
+  basename: 2-1-0-molecular-docking-and-virtual-screening
+  day: 2
+  period: 1
+  overview: true
+  key: true
+
+- title: Molecular docking
+  basename: 2-1-1-molecular-docking
+  day: 2
+  period: 1
+  key: true
+
+- title: "Tutorial: AutoDock Vina"
+  basename: 2-1-2-vina
+  day: 2
+  period: 1
+  key: true
+
+- title: "Virtual screening"
+  basename: 2-1-3-virtual-screening
+  day: 2
+  period: 1
+  key: true
+
+- title: "Tour: Virtual screening of FDA-approved drugs against HIV protease"
+  basename: 2-1-4-HIV-protease
+  day: 2
   period: 1
   key: true
 
 - title: Biomolecular potential energy functions
   teacher: Willow
   description: Molecular mechanics force fields. Mixed quantum mechanics/molecular mechanics
-  day: 1
-  period: 2
-  overview: true
-
-- title: Molecular docking
-  description: Scoring functions. Common optimization algorithms
   day: 2
-  period: 1
+  period: 2
   overview: true
 
 - title: Molecular simulation
   teacher: Spiridon
   description: Markov chain Monte Carlo. The Metropolis-Hastings Algorithm. Hamiltonian Monte Carlo and molecular dynamics. Constrained dynamics including torsion and rigid-body dynamics. Integrators, thermostats, and barostats
-  day: 2
-  period: 2
+  day: 3
+  period: 1
   overview: true
 
 - title: Analysis of molecular simulations
-  description: Equilibration versus production. Visualization of trajectories. Time series, averages, and histograms of properties including RMSD, potential energy, and distances. Principal components analysis
-  day: 3
-  period: 1
-  overview: true
-
-- title: Markov state models
-  description: Conformational clustering. Markov chains. Microstates and empirical transition matrices. Computing equilibrium populations and kinetics
+  basename: 3-2-1-analysis
   day: 3
   period: 2
   overview: true
+  key: true
 
-- title: Simulating thermodynamic processes
-  description: Thermodynamic cycles. Umbrella sampling. Replica exchange
+- title: "Basics: Equilibration. Root mean square properties. Estimating expectation values. Alignment and visualization of trajectories"
+  basename: 3-2-1-basics
+  day: 3
+  period: 2
+  key: true
+
+- title: Dimensionality reduction with principal components analysis
+  basename: 3-2-2-dimensionality-reduction
+  day: 3
+  period: 2
+  key: true
+
+- title: Markov State Models
+  basename: 4-1-0-markov-state-models
   day: 4
   period: 1
   overview: true
+  key: true
 
-- title: Analysis of thermodynamic process simulations
-  description: Potential of mean force. Statistical estimators
+- title: Conformational clustering
+  basename: 4-1-1-clustering
+  day: 4
+  period: 1
+  key: true
+
+- title: Markov chains. Microstates and empirical transition matrices. Computing equilibrium populations and kinetics
+  basename: 4-1-2-building
+  day: 4
+  period: 1
+  key: true
+
+- title: Simulating and analyzing thermodynamic processes
+  basename: 4-2-0-thermodynamic-processes
   day: 4
   period: 2
   overview: true
+  key: true
+
+- title: Thermodynamic processes. Umbrella sampling. Replica exchange
+  basename: 4-2-1-simulation
+  day: 4
+  period: 2
+  key: true
+
+- title: Statistical estimation of expectations and free energies
+  basename: 4-2-2-estimation
+  day: 4
+  period: 2
+  key: true
 
 - title: Binding free energy calculations
-  description: Alchemical methods
+  basename: 5-1-0-binding-free-energy-simulations
   day: 5
   period: 1
   overview: true
+  key: true
+
+- title: Thermodynamic cycles. Alchemical methods
+  basename: 5-1-1-alchemical
+  day: 5
+  period: 1
+  key: true
+
+- title: Binding free energy calculations with YANK
+  basename: 5-1-2-yank
+  day: 5
+  period: 1
+  key: true
 
 - title: Analysis of binding free energy calculations
-  description: Quality metrics. Pose prediction
+  basename: 5-2-0-binding-free-energy-analysis
   day: 5
   period: 2
   overview: true
+  key: true
+
+- title: Quality metrics
+  basename: 5-2-1-free-energy-analysis
+  day: 5
+  period: 2
+  key: true
+
+- title: Pose prediction
+  basename: 5-2-2-pose-prediction
+  day: 5
+  period: 2
+  key: true

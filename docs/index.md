@@ -3,7 +3,7 @@ layout: default
 title: About
 ---
 
-The workshop will be a one-week event consisting of 10 periods (~3 hours each) that include both theory and computer laboratory. The workshop will be primarily taught by David Minh with guest lectures from Laurentiu Spiridon and Soohaeng Yoo Willow. Topics are as follows:
+The workshop will be a one-week event comprising 10 periods (~3 hours each) that include both theory and computer laboratory. The workshop will be primarily taught by David Minh with guest lectures from Laurentiu Spiridon and Soohaeng Yoo Willow. Topics are as follows:
 
 | Day | Period 1 | Period 2 |
 | --- | -------- | -------- |
@@ -11,8 +11,9 @@ The workshop will be a one-week event consisting of 10 periods (~3 hours each) t
 {%- if module.overview %}<b>{% endif -%}
 {{ module.title }}
 {%- if module.overview %}</b>{% endif -%}
+{% if module.teacher %} ({{ module.teacher }}){% endif -%}
+{% if module.description %}. {{ module.description }}{% endif -%}
 {% if module.key %} [[key]](https://github.com/CCBatIIT/modelingworkshop/raw/main/slides/{{ module.basename }}.key){% endif %}.
-{%- if module.description %} {{ module.description }}.{% endif -%}
 {%- endif %} {% endif %} {% endfor %} | {% endfor %}
 {% endfor %}
 
