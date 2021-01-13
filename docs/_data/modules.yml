@@ -54,30 +54,35 @@
   period: 1
   overview: true
   key: true
+  pdf: true
 
 - title: Molecular docking
   basename: 2-1-1-molecular-docking
   day: 2
   period: 1
   key: true
+  pdf: true
 
 - title: "Tutorial: AutoDock Vina"
   basename: 2-1-2-vina
   day: 2
   period: 1
   key: true
+  pdf: true
 
 - title: "Virtual screening"
   basename: 2-1-3-virtual-screening
   day: 2
   period: 1
   key: true
+  pdf: true
 
 - title: "Tour: Virtual screening of FDA-approved drugs against HIV protease"
   basename: 2-1-4-HIV-protease
   day: 2
   period: 1
   key: true
+  pdf: true
 
 - title: Biomolecular potential energy functions
   teacher: Willow
@@ -89,9 +94,17 @@
 - title: Molecular simulation
   teacher: Spiridon
   description: Markov chain Monte Carlo. The Metropolis-Hastings Algorithm. Hamiltonian Monte Carlo and molecular dynamics. Constrained dynamics including torsion and rigid-body dynamics. Integrators, thermostats, and barostats
+  basename: 3-1-1-MCMC
   day: 3
   period: 1
   overview: true
+  pdf: true
+
+- title: Exercise
+  basename: 3-1-2-HMC-exercise
+  day: 3
+  period: 1
+  pdf: true
 
 - title: Analysis of molecular simulations
   basename: 3-2-0-analysis

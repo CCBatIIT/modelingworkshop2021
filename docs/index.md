@@ -13,7 +13,8 @@ The workshop will be a one-week event comprising 10 periods (~3 hours each) that
 {%- if module.overview %}</b>{% endif -%}
 {% if module.teacher %} ({{ module.teacher }}){% endif -%}
 {% if module.description %}. {{ module.description }}{% endif -%}
-{% if module.key %} [[key]](https://github.com/CCBatIIT/modelingworkshop/raw/main/slides/{{ module.basename }}.key){% endif %}.
+{% if module.key %} [[key]](https://github.com/CCBatIIT/modelingworkshop/raw/main/slides/{{ module.basename }}.key){% endif %}
+{%- if module.pdf %} [[pdf]](https://github.com/CCBatIIT/modelingworkshop/raw/main/slides/{{ module.basename }}.pdf){% endif %}.
 {%- endif %} {% endif %} {% endfor %} | {% endfor %}
 {% endfor %}
 
