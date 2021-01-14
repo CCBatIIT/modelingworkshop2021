@@ -8,13 +8,10 @@ The workshop will be a one-week event comprising 10 periods (~3 hours each) that
 | Day | Period 1 | Period 2 |
 | --- | -------- | -------- |
 {% for day in (1..5) %} | {{ day }} | {% for period in (1..2) %} {% for module in site.data.modules %} {% if module.day == day %} {% if module.period == period %}
-{%- if module.overview %}<b>{% endif -%}
-{{ module.title }}
-{%- if module.overview %}</b>{% endif -%}
-{% if module.teacher %} ({{ module.teacher }}){% endif -%}
-{% if module.description %}. {{ module.description }}{% endif -%}
-{% if module.key %} [[key]](https://github.com/CCBatIIT/modelingworkshop/raw/main/slides/{{ module.basename }}.key){% endif %}
-{%- if module.pdf %} [[pdf]](https://github.com/CCBatIIT/modelingworkshop/raw/main/slides/{{ module.basename }}.pdf){% endif %}.
+{%- if module.bold %}<b>{% endif %}{{ module.title }} {% if module.bold %}</b>{% endif -%}
+{% if module.teacher %}({{ module.teacher }}){% endif -%}
+{% if module.description %}. {{ module.description }} {% endif -%}
+[[key](https://github.com/CCBatIIT/modelingworkshop/raw/main/slides/{{ module.basename }}.key)/[pdf](https://github.com/CCBatIIT/modelingworkshop/raw/main/slides/{{ module.basename }}.pdf)].
 {%- endif %} {% endif %} {% endfor %} | {% endfor %}
 {% endfor %}
 
