@@ -141,18 +141,9 @@
   period: 1
   bold: true
 
-- title: Analysis of binding free energy calculations
+- title: Analysis of alchemical binding free energy calculations
+  description: Quality metrics. Pose prediction
   basename: 5-2-0-binding-free-energy-analysis
   day: 5
   period: 2
   bold: true
-
-- title: Quality metrics
-  basename: 5-2-1-free-energy-analysis
-  day: 5
-  period: 2
-
-- title: Pose prediction
-  basename: 5-2-2-pose-prediction
-  day: 5
-  period: 2
