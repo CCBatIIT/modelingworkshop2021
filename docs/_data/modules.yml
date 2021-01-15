@@ -135,20 +135,11 @@
   period: 2
 
 - title: Binding free energy calculations
-  basename: 5-1-0-binding-free-energy-simulations
+  description: Thermodynamic cycles. Alchemical methods
+  basename: 5-1-0-binding-free-energies
   day: 5
   period: 1
   bold: true
-
-- title: Thermodynamic cycles. Alchemical methods
-  basename: 5-1-1-alchemical
-  day: 5
-  period: 1
-
-- title: Binding free energy calculations with YANK
-  basename: 5-1-2-yank
-  day: 5
-  period: 1
 
 - title: Analysis of binding free energy calculations
   basename: 5-2-0-binding-free-energy-analysis
