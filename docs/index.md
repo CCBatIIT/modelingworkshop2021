@@ -41,16 +41,35 @@ We will also use these web servers:
 
 # Who?
 
-This workshop will introduce advanced undergraduate students, graduate students, and research scientists in chemistry, biology, and related fields to computational methods for modeling biological macromolecules. Workshop participants will mostly be from Vietnam, the United States of America, and Romania.
+This workshop will introduce advanced undergraduate students, graduate students, and research scientists in chemistry, biology, and related fields to computational methods for modeling biological macromolecules. Workshop participants will mostly be from the United States of America, Romania, and Vietnam.
 
-Up to 25 participants will join the workshop in person, including up to 10 students as part of a class at the Illinois Institute of Technology. An additional 25 students may participate online and receive support from the instructors. If the workshop is held entirely online due to COVID-19, there will be up to 50 total participants.
+<!--Up to 25 participants will join the workshop in person, including up to 10 students as part of a class at the Illinois Institute of Technology.-->
+Up to 15 students may participate as part of a class at the Illinois Institute of Technology: Chem 456, Computational Biochemistry and Drug Design. An additional 25 students may participate online and receive support from the instructors.
+<!--If the workshop is held entirely online due to COVID-19, there will be up to 50 total participants.-->
 
 Participants should have a laptop computer capable of running the virtual machine.
 
 # When?
 
-The workshop will be held from June 28 to July 2, 2021. Modules will start at the following times, which are in Indochina Time (ICT), Central Daylight Time (CDT), and Eastern European Standard Time (EEST):
+The workshop will be held from June 28 to July 2, 2021. Modules will start at the following times, which are in Central Daylight Time (CDT), Eastern European Standard Time (EEST), and Indochina Time (ICT):
 
+| Module | CST  | EEST | ICT  |
+| ------ | ---- | ---- | ---- |
+| 1      | 9 am | 5 pm | 9 pm |
+| 2      | 1 pm | 9 pm | 1 am (+1 d) |
+
+All participants are welcome to work through the modules synchronously. Participants in CDT are especially encouraged to participate live. However, it will probably make sense for remote participants, based on their time zone, to complete modules at a more convenient time. All participants can reach out to all workshop instructors for online office hours. Online office hours will be held at the following times:
+
+Workshop instructors will hold online office hours at the following times:
+
+| Instructor | CDT  | EEST | ICT  |
+| ---------- | ---- | ---- | ---- |
+| David      | 7 pm | 3 am (+1 d) | 7 am (+1 d) |
+| Laurentiu  | 1 am | 9 am | 1 pm |
+| Soohaeng   | 8 am | 4 pm | 8 pm |
+
+<!--
+These were originally planned times for the workshop in Nha Trang:
 | Module | ICT | CDT | EEST |
 | ------ | --- | --- | ---- |
 | 1 | 8 am | 8 pm (-1 day) | 4 am EEST |
@@ -66,22 +85,24 @@ Workshop instructors will hold online office hours at the following times:
 
 All participants, in-person and remote, are welcome to work through the modules synchronously. However, it will probably make sense for remote participants, based on their time zone, to complete modules at a more convenient time. Participants in CDT are encouraged to join module 1 live and complete module 2 the following morning. Participants in EEST are encouraged to complete module 1 immediately before participating live in module 2. All participants can visit all workshop instructors for online office hours.
 
-A Chicago-based practice workshop will be held from January 11 to 15, 2021. Modules will start at the following times, which are in Indochina Time (ICT), Central Standard Time (CST), and Eastern European Time (EET):
-
+These were times for the practice workshop in 1/2021:
 | Module | ICT | CST | EEST |
 | ------ | --- | --- | ---- |
 | 1 | 2 am | 1 pm (-1 day) | 9 pm |
 | 2 | 9 pm | 8 am | 4 pm |
+-->
 
 # Where?
 
-If international travel returns to normal, the workshop will be held at the University of Nha Trang in Nha Trang, Vietnam. The workshop will be held in an internet-connected classroom with a projection system and capacity for about 25 students. Room furniture will be set up in a way to facilitate instructors roaming the room and students gathering in groups.
+It has not been determined whether the workshop will be completely online or partly in person. If in person, it will be held in an internet-connected classroom with a projection system and capacity for about 25 students. Room furniture will be set up in a way to facilitate instructors roaming the room and students gathering in groups.
 
-If travel to Vietnam continues to be restricted due to COVID-19, the workshop will be held online.
+<!--
+If international travel returns to normal, the workshop will be held at the University of Nha Trang in Nha Trang, Vietnam. If travel to Vietnam continues to be restricted due to COVID-19, the workshop will be held online.
+-->
 
 # Why?
 
 The purpose of this workshop will be
 - to further the education of workshop participants in the field of computational biochemistry;
-- to promote international scientific collaboration, especially between the United States, Vietnam, and Romania; and
-- to provide a rich cultural exchange experience that will foster this collaboration.
+- to promote international scientific collaboration, especially between the United States, Vietnam, and Romania
+<!-- - to provide a rich cultural exchange experience that will foster this collaboration. -->
