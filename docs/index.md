@@ -3,7 +3,7 @@ layout: default
 title: About
 ---
 
-The workshop will be a one-week event comprising 10 periods (~3 hours each) that include both theory and computer laboratory. The workshop will be primarily taught by David Minh with guest lectures from Laurentiu Spiridon and Soohaeng Yoo Willow. Topics are as follows:
+The workshop will be a one-week event comprising 10 periods (~3 hours each) that include both theory and computer laboratory. The workshop will be primarily taught by David Minh with guest lectures from Andrew Howard, Laurentiu Spiridon, and Soohaeng Yoo Willow. Topics are as follows:
 
 | Day | Period 1 | Period 2 |
 | --- | -------- | -------- |
