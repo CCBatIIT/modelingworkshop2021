@@ -49,6 +49,10 @@ Up to 15 students may participate as part of a class at the Illinois Institute o
 
 Participants should have a laptop computer capable of running the virtual machine.
 
+If you would like to be a formal participant in the workshop, please submit a brief [application](https://forms.gle/Levf3mRaPi5efjhg8). Formal participants will be able to attend the workshop live and participate in live discussions. Priority for formal participation will be given to Illinois Tech students and individuals working with the workshop instructors.
+
+After the workshop, lecture recordings and slides will be made freely available online.
+
 # When?
 
 The workshop will be held from June 28 to July 2, 2021. Modules will start at the following times, which are in Central Daylight Time (CDT), Eastern European Standard Time (EEST), and Indochina Time (ICT):
