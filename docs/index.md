@@ -3,7 +3,9 @@ layout: default
 title: About
 ---
 
-The workshop will be a one-week event comprising 10 periods (~3 hours each) that include both theory and computer laboratory. The workshop will be primarily taught by David Minh with guest lectures from Andrew Howard, Laurentiu Spiridon, and Soohaeng Yoo Willow. Topics are as follows:
+The workshop will be a one-week event comprising 10 periods (~3 hours each) that include both theory and computer laboratory. If you would like to be a formal participant in the workshop, please submit an [application](https://forms.gle/Levf3mRaPi5efjhg8).
+
+The workshop will be primarily taught by David Minh with guest lectures from Andrew Howard, Laurentiu Spiridon, and Soohaeng Yoo Willow. Topics are as follows:
 
 | Day | Period 1 | Period 2 |
 | --- | -------- | -------- |
@@ -49,7 +51,7 @@ Up to 15 students may participate as part of a class at the Illinois Institute o
 
 Participants should have a laptop computer capable of running the virtual machine.
 
-If you would like to be a formal participant in the workshop, please submit a brief [application](https://forms.gle/Levf3mRaPi5efjhg8). Formal participants will be able to attend the workshop live and participate in live discussions. Priority for formal participation will be given to Illinois Tech students and individuals working with the workshop instructors.
+If you would like to be a formal participant in the workshop, please submit an [application](https://forms.gle/Levf3mRaPi5efjhg8). Formal participants will be able to attend the workshop live and participate in live discussions. Priority for formal participation will be given to Illinois Tech students and individuals working with the workshop instructors or collaborators.
 
 After the workshop, lecture recordings and slides will be made freely available online.
 
