@@ -33,7 +33,7 @@ During the workshop, we will be using the following software:
   - [yank](http://getyank.org/latest/) for performing alchemical free energy calculations.
   - [msmbuilder](http://msmbuilder.org/3.8.0/) to create statistical models for biomolecular dynamics.
 
-For your convenience, David's PhD student Jim Tufts has prepared [a virtual machine that contains all of this software](https://drive.google.com/file/d/1Ld57XG7kPQUwnn5NmaNZVRizKqJIt9T8/view?usp=sharing). To use this virtual machine, you will first need to install [Virtual Box](https://www.virtualbox.org/). The user name is _chemuser_ and initial password is _vm_.
+For your convenience, David's PhD student Jim Tufts has prepared [a virtual machine that contains all of this software](https://jimtufts.com/data/pdb/LinuxMint.tar.gz) and a [compiled version of Robosampler](https://jimtufts.com/data/pdb/Robosample.tar.gz). To use this virtual machine, you will first need to install [Virtual Box](https://www.virtualbox.org/). The user name is _chemuser_ and initial password is _vm_.
 
 We will also use these web servers:
 - Homology modelling
