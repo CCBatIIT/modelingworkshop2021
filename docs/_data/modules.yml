@@ -81,6 +81,8 @@
   period: 1
 
 - title: Biomolecular potential energy functions
+  basename: 2-2-0-biomolecular-potential-energy
+  slides: pdf
   teacher: Willow
   description: Molecular mechanics force fields. Mixed quantum mechanics/molecular mechanics
   day: 2

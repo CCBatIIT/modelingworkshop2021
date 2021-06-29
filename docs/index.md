@@ -13,7 +13,7 @@ The workshop will be primarily taught by David Minh with guest lectures from And
 {%- if module.bold %}<b>{% endif %}{{ module.title }} {% if module.bold %}</b>{% endif -%}
 {% if module.teacher %}({{ module.teacher }}){% endif -%}
 {% if module.description %}. {{ module.description }} {% else %} {% endif -%}
-[{% if module.slides == "ppt" %}[ppt](https://github.com/CCBatIIT/modelingworkshop/raw/main/slides/{{ module.basename }}.ppt){% else %}[key](https://github.com/CCBatIIT/modelingworkshop/raw/main/slides/{{ module.basename }}.key){% endif -%}/[pdf](https://github.com/CCBatIIT/modelingworkshop/raw/main/slides/{{ module.basename }}.pdf)].
+[{% if module.slides == "ppt" %}[ppt](https://github.com/CCBatIIT/modelingworkshop/raw/main/slides/{{ module.basename }}.ppt)/{% elsif module.slides == "pdf"%}{% else %}[key](https://github.com/CCBatIIT/modelingworkshop/raw/main/slides/{{ module.basename }}.key)/{% endif -%}[pdf](https://github.com/CCBatIIT/modelingworkshop/raw/main/slides/{{ module.basename }}.pdf)].
 {%- endif %} {% endif %} {% endfor %} | {% endfor %}
 {% endfor %}
 
