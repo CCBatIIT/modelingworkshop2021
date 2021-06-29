@@ -1,0 +1,27 @@
+{
+    "theory": "qm",
+    "job": "ener",
+    "geom": {
+        "ligand": "./TEST/ligand.pdb",
+        "qm_residues": {
+            "LIG1": 0
+        },
+        "constraints": [
+        ]
+    },
+    "qm": {
+        "method": "mp2",
+        "basis": "aug-cc-pVDZ",
+        "esp": true,
+        "esp_opts": {
+            "resp": true,
+            "resp_hfree": true
+        }
+    },
+    "geomopt": {
+        "fname_gopt_xyz": "./TEST/gopt.xyz",
+        "fname_gopt_log": "./TEST/gopt.log",
+        "fname_lig_pdb": "./TEST/ligand_optimized.pdb",
+        "fname_prt_pdb": "./TEST/protein_optimized.pdb"
+    }
+}

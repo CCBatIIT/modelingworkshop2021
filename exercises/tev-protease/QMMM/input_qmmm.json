@@ -1,0 +1,37 @@
+{
+    "theory": "qmmm",
+    "job": "ener",
+    "geom": {
+	"ligand": "./TEST/ligand.pdb",
+	"protein": "./TEST/protein.pdb",
+        "qm_residues": {
+            "LIG1": 0,
+	    "CYS143":0,
+	    "HIE170":0
+        },
+        "constraints": [
+		["CYS143:HG","HIE170:ND1", 0.0, 1.0],
+                ["CYS143:SG","LIG1:CG", 0.0, 1.8]
+        ]
+
+    },
+    "qm": {
+        "method": "rhf",
+        "basis": "6-31g",
+        "esp": true,
+        "esp_opts": {
+            "resp": true,
+            "resp_hfree": true
+        }
+    },
+    "mm": {
+	"Platform": "CPU",
+        "fname_prmtop": "./TEST/protein.prmtop"
+    },
+    "geomopt": {
+        "fname_gopt_xyz": "./TEST/gopt.xyz",
+        "fname_gopt_log": "./TEST/gopt.log",
+        "fname_lig_pdb": "./TEST/ligand_optimized.pdb",
+        "fname_prt_pdb": "./TEST/protein_optimized.pdb"
+    }
+}
