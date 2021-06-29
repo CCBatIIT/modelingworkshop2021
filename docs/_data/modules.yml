@@ -92,13 +92,15 @@
 - title: Molecular simulation
   teacher: Spiridon
   description: Markov chain Monte Carlo. The Metropolis-Hastings Algorithm. Hamiltonian Monte Carlo and molecular dynamics. Constrained dynamics including torsion and rigid-body dynamics. Integrators, thermostats, and barostats
-  basename: 3-1-1-MCMC
+  basename: 3-1-1-molecular-simulation
+  slides: pdf
   day: 3
   period: 1
   bold: true
 
-- title: Exercise
-  basename: 3-1-2-HMC-exercise
+- title: Robosample
+  basename: 3-1-2-robosample
+  slides: pdf
   day: 3
   period: 1
 
