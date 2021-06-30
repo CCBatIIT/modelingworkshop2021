@@ -1,0 +1,17 @@
+; REC.itp extracted from topol_solv_isotonic.top
+;	                    :-) GROMACS - gmx pdb2gmx, 2018.8 (-:
+
+; Include forcefield parameters
+#include "amber99sb-ildn.ff/forcefield.itp"
+
+; Include topology for protein
+#include "6lu7_rec_GMX.itp"
+
+[ system ]
+; Name
+COVID-19 main protease dimer
+
+[ molecules ]
+; Compound        #mols
+Protein_chain_A     1
+Protein_chain_A     1

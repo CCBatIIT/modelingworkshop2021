@@ -4,5 +4,4 @@ _site/
 .jekyll-metadata
 Gemfile*
 .ipynb*
-sarscov2-10921231-structure
 traj_protein_snap_every1ns
