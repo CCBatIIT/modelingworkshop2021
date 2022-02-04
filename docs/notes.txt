@@ -1,0 +1,13 @@
+FOR NEXT TIME
+
+One week before the workshop:
+* Have the virtual machine ready, including pyEMMA and YANK.
+* Check the links.
+* Go through the exercises a week before the workshop.
+
+Revise the schedule:
+* After the introductory remarks, give participants some time to download the virtual machine.
+* Stretch Day 1 Period 1 over the entire day, splitting "Fundamentals of biological macromolecules" and "Structure determination" over two periods. Delay the rest of the workshop by one period.
+* Describe the preparation of simulation models in more detail.
+* Simulating and analyzing thermodynamic processes can be discussed in half a period. A practical exercise can be added.
+* Binding free energy calculations can be covered in one period.
