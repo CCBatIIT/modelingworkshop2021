@@ -3,7 +3,7 @@ layout: default
 title: About
 ---
 
-This page describes a workshop in June 2021. For information about more recent or upcoming workshops, go to the [home page]({% link index.md %}).
+This page describes a workshop in June 2021. For information about more recent or upcoming workshops, go to the [home page](/index).
 
 # What?
 

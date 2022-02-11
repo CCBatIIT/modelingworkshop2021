@@ -3,7 +3,7 @@ layout: default
 title: About
 ---
 
-The workshop will be a one-week event comprising 10 periods (~3 hours each) that include both theory and computer laboratory. It is based on a [workshop in 2021]({% link index2021.md %}). The workshop will be primarily taught by David Minh. Some modules will be taught by guest lecturers.
+The workshop will be a one-week event comprising 10 periods (~3 hours each) that include both theory and computer laboratory. It is based on a [workshop in 2021](/index2021). The workshop will be primarily taught by David Minh. Some modules will be taught by guest lecturers.
 
 Topics are as follows:
 
@@ -27,11 +27,7 @@ Up to 10 students may participate at Simon Bolivar University in Barranquilla, C
 
 Participants should have a laptop computer capable of running the virtual machine.
 
-<!-- If you would like to be a formal participant in the workshop, please submit an [application](https://forms.gle/Levf3mRaPi5efjhg8). -->
-
-An application for formal participation will be created soon.
-
-Formal participants will be able to attend the workshop live and participate in live discussions. Priority for formal participation will be given to Simon Bolivar University and Illinois Tech students and individuals working with a workshop instructor or collaborator.
+If you would like to be a formal participant in the workshop, please submit an [application](https://forms.gle/KgUUzhWsaF6XkkJ49). Formal participants will be able to attend the workshop live and participate in live discussions. Priority for formal participation will be given to affiliates of Simon Bolivar University and Illinois Tech and individuals working with a workshop instructor or collaborator.
 
 After the workshop, lecture recordings and slides may be made freely available online.
 
