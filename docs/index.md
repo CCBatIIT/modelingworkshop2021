@@ -3,7 +3,7 @@ layout: default
 title: About
 ---
 
-The workshop will be a one-week event comprising 10 periods (~3 hours each) that include both theory and computer laboratory. It is based on a [workshop in 2021](/index2021). The workshop will be primarily taught by David Minh. Some modules will be taught by guest lecturers.
+The workshop will be a one-week event comprising 10 periods (~3 hours each) that include both theory and computer laboratory. It is based on a [workshop in 2021](https://ccbatiit.github.io/modelingworkshop/index2021.html). The workshop will be primarily taught by David Minh. Some modules will be taught by guest lecturers.
 
 Topics are as follows:
 
