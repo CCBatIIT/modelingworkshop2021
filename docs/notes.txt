@@ -2,8 +2,27 @@ TODO
 
 * Visualization and structural alignment for MPro
 
+* Adapt 
+
+Lab.01 / IBM3202 – Warm-up on COLAB & Brief Review of Biomolecular Databases
+
+Lab.02 / IBM3202 – Visualizing and Comparing Molecular Structures in Google Colab using py3Dmol
+
+Lab.04 / IBM3202 – Comparative Modeling using MODELLER
+
+Lab.06 / IBM3202 – Molecular Docking on AutoDock
+
+
+Lab.07 / IBM3202 – Molecular Dynamics on GROMACS
+
+
+Lab.08 / IBM3202 – Trajectory Analysis using MDanalysis
+
+
 
 FOR NEXT TIME
+
+
 
 
 
