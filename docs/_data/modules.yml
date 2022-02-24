@@ -1,36 +1,43 @@
 - title: "Introductory remarks"
+  basename: 1-1-0-introductory-remarks
   day: 1
   period: 1
   bold: true
 
 - title: "Exercise: Navigating the LINUX terminal"
+  basename: 1-1-1-linux
   day: 1
   period: 1
 
 - title: "Fundamentals of biological macromolecules"
-  description: "Nucleic acid and protein building blocks and levels of structure"
+  basename: 1-1-2-biological-macromolecules
   day: 1
   period: 1
   bold: true
 
 - title: "Exercise: Visualization and structural alignment"
+  basename: 1-1-3-visualization-structural-alignment
   day: 1
   period: 1
 
 - title: "Three-dimensional models"
+  basename: None
   day: 1
   period: 2
   bold: true
 
 - title: "Structure determination by X-ray crystallography, NMR, and CryoEM"
+  basename: 1-2-0-structure-determination
   day: 1
   period: 2
 
 - title: "Structure prediction"
+  basename: 1-2-1-structure-prediction
   day: 1
   period: 2
 
 - title: "Exercise: Building a homology model"
+  basename: 1-2-2-homology-model
   day: 1
   period: 2
 
@@ -53,6 +60,7 @@
   period: 2
 
 - title: Molecular mechanics force fields
+  teacher: DePaolo-Boisvert
   day: 3
   period: 1
   bold: true
@@ -62,7 +70,7 @@
   period: 1
 
 - title: Quantum mechanics/molecular mechanics (QM/MM)
-#  teacher: Willow
+  teacher: Suthaharan
   day: 3
   period: 2
   bold: true
@@ -72,7 +80,7 @@
   period: 2
 
 - title: Molecular simulation
-#  teacher: Spiridon
+  teacher: Spiridon
   description: Markov chain Monte Carlo. Molecular dynamics. Constrained dynamics. Integrators, thermostats, and barostats
   day: 4
   period: 1
@@ -101,7 +109,7 @@
   bold: true
 
 - title: Binding free energy calculations
-#  teacher: DePaolo-Boisvert
+  teacher: DePaolo-Boisvert
   description: "Thermodynamic cycles. Alchemical methods. Quality metrics. Pose prediction"
   day: 5
   period: 2

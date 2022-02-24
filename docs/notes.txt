@@ -1,4 +1,11 @@
+TODO
+
+* Visualization and structural alignment for MPro
+
+
 FOR NEXT TIME
+
+
 
 One week before the workshop:
 * Have the virtual machine ready, including pyEMMA and YANK.
